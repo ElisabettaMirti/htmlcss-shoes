@@ -17,6 +17,18 @@ section.trending{
     background-color: #ff0000;
 }
 
+.trending.two{
+    background-color: #008000;
+}
+
+.trending.three{
+    background-color: #ffff00;
+}
+
+.three .best-shoes{
+    color: #008000;
+}
+
 .products{
     position: absolute;
     top: 50%;
