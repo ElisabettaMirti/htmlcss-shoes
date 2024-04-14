@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Rubik Mono One", monospace;
+}
+
+section.trending{
+    height: 100vh;
+    position: relative;
+}
+
+.trending.one{
+    background-color: #ff0000;
+}
+
+.product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product>img{
+    height: 65vh;
+}
+
+p.info-shoes{
+    font-style: uppercase;
+    font-size: 2rem;
+    color: #ffff00;
+    text-align: center;
+}
+
